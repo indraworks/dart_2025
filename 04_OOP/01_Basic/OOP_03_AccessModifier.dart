@@ -14,7 +14,7 @@ kita trus import kesini dan instanciate itu animal class
 
 */
 
-import "animal2.dart";
+import "../02_ContohProject/animal2.dart";
 
 void main() {
   //kita instance

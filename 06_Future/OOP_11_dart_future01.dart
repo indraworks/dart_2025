@@ -114,17 +114,17 @@ sehingga memungkinkan untuk menulis kode asynchronous yang terlihat mirip layakn
 //   return Future.delayed(Duration(seconds: 3), () => 'DartUser');
 // }
 
-void main() {
-  try {
-    print('Fetching username...');
-    var username = await fetchUsername();
-    print('You are logged in as $username');
-    print('Welcome!');
-  } catch(e) {
-    print(e);
-  }
-}
+// void main() {
+//   try {
+//     print('Fetching username...');
+//     var username = await fetchUsername();
+//     print('You are logged in as $username');
+//     print('Welcome!');
+//   } catch(e) {
+//     print(e);
+//   }
+// }
 
-Future<String> fetchUsername() {
-  return Future.delayed(Duration(seconds: 3), () => 'DartUser');
-}
+// Future<String> fetchUsername() {
+//   return Future.delayed(Duration(seconds: 3), () => 'DartUser');
+// }

@@ -1,4 +1,4 @@
-import 'animal.dart';
+import '../02_ContohProject/animal.dart';
 
 void main() {
   var dicodingCat = Animal("EEK", 12, 3.7);
