@@ -1,12 +1,11 @@
 void main() {
-  List<Bird> birdList = [Bird(), Dove(), Duck()];
-  print('bird_List =' + birdList.toString());
+  var x = 11;
+
+  if (x * 2 + 1 < 23 && x % 2 == 1) {
+    print('x');
+  } else if (x != 0) {
+    print('y');
+  } else {
+    print('z');
+  }
 }
-
-class Animal {}
-
-class Bird implements Animal {}
-
-class Dove implements Bird {}
-
-class Duck implements Bird {}
